@@ -16,7 +16,7 @@ donde n es el valor a buscar, y m es el valor a sustituir
 - Van a crear el metodo insert, obvio :v sin insert XD 
 
 
-def busqueda(lista):
+def busqueda(lista, n): #Donde n es el eleento a buscar
 	
 	# retorna la posición si el elemento existe
 	# retorna -1
