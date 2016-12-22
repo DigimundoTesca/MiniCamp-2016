@@ -28,6 +28,9 @@ print('Disivión entera', result)
 result = x ** y
 print('Potencia', result)
 
+#cambios 
+result=result//result
+print('uno=',result)
 
 '''
 Strings
