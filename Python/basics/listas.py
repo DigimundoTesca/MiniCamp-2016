@@ -21,25 +21,25 @@ Repaso variables sencillas
 
 
 
-# L = [1,2,3,4,5,6]
+L = [1,2,3,4,5,6]
 
-# for valor in L:
-# 	print(valor)
-
-
-
-DIAS = {
-	'lunes': 100, 
-	'martes': 200, 
-	'miercoles': 3434,
-	'jueves': 213, 
-	'viernes': 0, 
-	'sabado': 'No voa trabajar :v ... a veces', 
-}
+for valor in L:
+	print(valor)
 
 
 
-for dia in DIAS:
-	print('Dia de la semana: ', DIAS[dia])
+# DIAS = {
+# 	'lunes': 100, 
+# 	'martes': 200, 
+# 	'miercoles': 3434,
+# 	'jueves': 213, 
+# 	'viernes': 0, 
+# 	'sabado': 'No voa trabajar :v ... a veces', 
+# }
+
+
+
+# for dia in DIAS:
+# 	print('Dia de la semana: ', DIAS[dia])
 
 
