@@ -1,1 +1,0 @@
--enviar el metodo de fibonacci en el metodo que gusten, ya sea tradicional o recursivo
