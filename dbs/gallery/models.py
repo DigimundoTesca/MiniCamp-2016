@@ -5,8 +5,8 @@ class Category(models.Model):
     name = models.CharField(max_length=48)
 
     class Meta:
-        verbose_name = "Categoria"
-        verbose_name_plural = "Categorias"
+        verbose_name = 'Categoria'
+        verbose_name_plural = 'Categorias'
 
     def __str__(self):
         return '%s' % self.name
@@ -14,13 +14,14 @@ class Category(models.Model):
 
 class Card(models.Model):
     name = models.CharField(max_length=48)
-    description = models.TextField(null=True, blank=True, default="Describe la tarjeta")
+    description = models.TextField(null=True, blank=True, default='Describe la tarjeta')
     created_at = models.DateTimeField(auto_now_add=True)
     category = models.ManyToManyField(Category)
+    image = models.ImageField(default='', upload_to='cards')
 
     class Meta:
-        verbose_name = "Tarjeta"
-        verbose_name_plural = "Tarjetas"
+        verbose_name = 'Tarjeta'
+        verbose_name_plural = 'Tarjetas'
 
     def __str__(self):
         return '%s' % self.name
