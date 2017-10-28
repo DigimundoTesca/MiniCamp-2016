@@ -16,6 +16,7 @@ class Card(models.Model):
     name = models.CharField(max_length=48)
     description = models.TextField(null=True, blank=True, default="Describe la tarjeta")
     created_at = models.DateTimeField(auto_now_add=True)
+    category = models.ManyToManyField(Category)
 
     class Meta:
         verbose_name = "Tarjeta"
